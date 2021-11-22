@@ -1,7 +1,5 @@
-export default function scriptExample() {
-	console.log('script example');
+const scriptExample = {
+	exampleFunc = () => console.log('test'),
 }
 
-function myFunc() {
-	console.log('test')
-}
+export default scriptExample
