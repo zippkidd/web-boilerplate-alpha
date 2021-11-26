@@ -4,6 +4,7 @@
 	"description": "Web Boilerplate Alpha",
 	"main": "index.js",
 	"scripts": {
+		"prestart": "webpack",
 		"start": "http-server ./dist",
 		"build": "webpack",
 		"test": "echo \"Error: no test specified\" && exit 1"
